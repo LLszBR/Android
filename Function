@@ -1,0 +1,12 @@
+class Function(val nama : String) {
+
+    fun <T> sayHello(param : T){
+        println("Hello $param, My name is $nama")
+    }
+}
+
+fun main() {
+    val function = Function("badri")
+
+    function.sayHello("badhaai")
+}
